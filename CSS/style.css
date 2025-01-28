@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Bhai", cursive;
+  color: white;
+  background: url(../img/web\ bg.jpg) no-repeat;
+}
+
+/* //////////////////////////////Navbar/////////////////////////////// */
+
+nav ul li {
+  display: inline;
+}
+
+#logo {
+  display: inline-block;
+  margin: 9px 0px 9px 43px;
+  width: 100px;
+}
+
+#name {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  text-decoration: none;
+  display: inline;
+  font-size: 30px;
+  position: relative;
+  bottom: 40px;
+  margin-right: 70px;
+}
+
+.link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 42px;
+  padding: 34px 23px;
+}
+
+.link:hover,
+.link.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+#gap {
+  margin-left: 120px;
+}
+
+#btn {
+  font-family: "Baloo Bhai", cursive;
+  margin: 0px 0px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  position: relative;
+  bottom: 42px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(31, 30, 30);
+}
+
+#reg {
+  text-decoration: none;
+  font-family: "Baloo Bhai", cursive;
+  color: white;
+  cursor: pointer;
+}
+
+/* //////////////////////////////Index-Container/////////////////////////////// */
+.container {
+  margin: 15px 0px 0px 42px;
+  padding: 20px 20px;
+  width: 608px;
+  height: 440px;
+}
+
+#title {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  display: block;
+  font-size: 49px;
+  margin-right: 70px;
+}
+
+#text {
+  font-size: 22px;
+}
+
+/* //////////////////////////////About-Container/////////////////////////////// */
+#about {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  display: block;
+  font-size: 49px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+#container {
+  margin: 15px 42px;
+  padding: 20px 20px;
+  width: 700px;
+  height: 270px;
+}
+
+.equ {
+  display: inline;
+  margin: 10px 10px;
+  border-radius: 2px;
+}
+
+#sit {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  display: inline-block;
+  font-size: 26px;
+  margin-left: 60px;
+  margin-top: 18px;
+}
+
+#mill {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  display: inline;
+  font-size: 26px;
+  margin-left: 49px;
+}
+
+#sitd {
+  display: inline-block;
+  width: 250px;
+  padding-bottom: 17px;
+  font-size: 22px;
+  margin-left: 60px;
+}
+
+#tre {
+  display: inline-block;
+  width: 250px;
+  height: 95px;
+  /* margin-top: px; */
+  padding-top: 10px;
+  padding-left: 48px;
+  font-size: 22px;
+}
+
+/* ///////////////////////////////Footer////////////////////////////// */
+
+.footer {
+  margin: 100px auto auto auto;
+  width: 90vw;
+  height: 217px;
+}
+
+.footer-head {
+  font-size: 40px;
+}
+.footul {
+  display: grid;
+  grid-template-columns: 300px 404px 250px 197px;
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+#logo1 {
+  display: inline-block;
+  width: 84px;
+}
+
+#name1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #f70606;
+  text-decoration: none;
+  display: inline;
+  font-size: 35px;
+  position: relative;
+  bottom: 25px;
+  margin-right: 70px;
+}
+
+#copy {
+  display: inline;
+  float: right;
+  font-size: 20px;
+  padding: 20px 78px 0px 0px;
+}
+
+/* //////////////////////////////////Form/////////////////////////////////// */
+
+.container1 {
+  border: 2px solid white;
+  margin: 20px 68px 0px 68px;
+  padding: 24px;
+  width: 40%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  font-family: "Baloo Bhai", cursive;
+  /* text-align: center; */
+  display: block;
+  width: 300px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 17px;
+  border-radius: 8px;
+}
+.form-group input::placeholder {
+  text-align: center;
+}
+.container1 h1 {
+  text-align: center;
+  font-size: 31px;
+}
+
+.container1 button {
+  display: block;
+  width: 65%;
+  margin: 15px auto;
+}
+
+.botn {
+  font-family: "Baloo Bhai", cursive;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.botn:hover {
+  background-color: rgb(31, 30, 30);
+}
