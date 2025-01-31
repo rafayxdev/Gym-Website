@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body {
-  font-family: "Baloo Bhai", cursive;
+  font-family: "Ubuntu", sans-serif;
   color: white;
-  background: url(../img/web\ bg.jpg) no-repeat;
+  background-image: url(../img/web\ bg.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
 /* //////////////////////////////Navbar/////////////////////////////// */
@@ -22,19 +26,18 @@ nav ul li {
 }
 
 #name {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   text-decoration: none;
   display: inline;
   font-size: 30px;
   position: relative;
   bottom: 40px;
   margin-right: 70px;
+  
 }
 
 .link {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;  font-size: 20px;
   color: white;
   text-decoration: none;
   position: relative;
@@ -49,11 +52,11 @@ nav ul li {
 }
 
 #gap {
-  margin-left: 120px;
+  margin-left: 137px;
 }
 
 #btn {
-  font-family: "Baloo Bhai", cursive;
+  font-family: "Ubuntu", sans-serif;
   margin: 0px 0px;
   background-color: black;
   color: white;
@@ -72,7 +75,7 @@ nav ul li {
 
 #reg {
   text-decoration: none;
-  font-family: "Baloo Bhai", cursive;
+  font-family: "Ubuntu", sans-serif;
   color: white;
   cursor: pointer;
 }
@@ -81,16 +84,16 @@ nav ul li {
 .container {
   margin: 15px 0px 0px 42px;
   padding: 20px 20px;
-  width: 608px;
+  width: 600px;
   height: 440px;
 }
 
 #title {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   display: block;
   font-size: 49px;
   margin-right: 70px;
+  
 }
 
 #text {
@@ -99,8 +102,7 @@ nav ul li {
 
 /* //////////////////////////////About-Container/////////////////////////////// */
 #about {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   display: block;
   font-size: 49px;
   margin-right: 70px;
@@ -111,7 +113,7 @@ nav ul li {
   margin: 15px 42px;
   padding: 20px 20px;
   width: 700px;
-  height: 270px;
+  height: 440px;
 }
 
 .equ {
@@ -119,10 +121,12 @@ nav ul li {
   margin: 10px 10px;
   border-radius: 2px;
 }
+.equ img{
+  filter: drop-shadow( -2px 2px 3px black);
+}
 
 #sit {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   display: inline-block;
   font-size: 26px;
   margin-left: 60px;
@@ -130,8 +134,7 @@ nav ul li {
 }
 
 #mill {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   display: inline;
   font-size: 26px;
   margin-left: 49px;
@@ -170,6 +173,7 @@ nav ul li {
   display: grid;
   grid-template-columns: 300px 404px 250px 197px;
   list-style: none;
+  row-gap: 5px;
   padding-bottom: 15px;
 }
 
@@ -179,14 +183,14 @@ nav ul li {
 }
 
 #name1 {
-  font-family: "Ubuntu", sans-serif;
-  color: #f70606;
+  font-family: "Ubuntu", sans-serif;  color: #f70606;
   text-decoration: none;
   display: inline;
   font-size: 35px;
   position: relative;
   bottom: 25px;
   margin-right: 70px;
+  
 }
 
 #copy {
@@ -207,7 +211,7 @@ nav ul li {
 }
 
 .form-group input {
-  font-family: "Baloo Bhai", cursive;
+  font-family: "Ubuntu", sans-serif;
   /* text-align: center; */
   display: block;
   width: 300px;
@@ -232,7 +236,7 @@ nav ul li {
 }
 
 .botn {
-  font-family: "Baloo Bhai", cursive;
+  font-family: "Ubuntu", sans-serif;
   margin: 0px 9px;
   background-color: black;
   color: white;
@@ -245,4 +249,172 @@ nav ul li {
 
 .botn:hover {
   background-color: rgb(31, 30, 30);
+}
+
+.text-shadow{
+  text-shadow: -2px 2px 3px black;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(../img/respon\ web\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  nav ul {
+    width: 95vw;
+    display: flex
+;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 13px;
+    row-gap: 52px;
+    padding-top: 24px;
+    margin: auto;
+}
+  #image-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+  }
+  #reg {
+    font-family: "Ubuntu", sans-serif;
+  }
+  #reg-btn {
+    min-width: 100vw;
+    text-align: center;
+  }
+  #logo {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width: 20vw;
+  }
+  #name {
+    font-size: 35px;
+    bottom: 0px;
+    margin-right: 0px;
+  }
+
+  .link {
+    font-size: 15px;
+    bottom: 11px;
+    padding: 0px 0px;
+  }
+  #gap {
+    margin-left: 0px;
+  }
+
+  .container {
+    width: 100vw;
+    margin: 140px 0px 0px 0px;
+    padding: 0px 20px;
+  }
+
+  #container {
+    width: 100vw;
+    margin: 46px 0px 0px 0px;
+    padding: 0px 20px;
+    height: 500px;
+}
+#sit {
+  font-size: 26px;
+  margin-left: 0px;
+        margin-top: 0px;
+}
+#sitd {
+  width: 152px;
+  padding-bottom: 0px;
+  font-size: 15px;
+  margin-left: 0px;
+}
+#mill {
+  margin-left: 30px;
+}
+#tre {
+  width: 190px;
+  height: 53px;
+  padding-top: 0px;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.equ img{
+  width: 140px;
+  filter: drop-shadow( -2px 2px 3px black);
+}
+  #about {
+    font-size: 40px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+}
+  #title {
+    font-size: 40px;
+  }
+  #text {
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .footer-detail {
+    font-size: 7px;
+  }
+  .footer-head {
+    font-size: 16px;
+  }
+  .footul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 5px;
+    width: 95vw;
+    margin: auto;
+  }
+
+  .footer {
+    margin: 0px;
+    width: 100vw;
+    height: 217px;
+  }
+  #logo1 {
+    display: inline-block;
+    width: 15vw;
+  }
+
+  #name1 {
+    font-size: 20px;
+    bottom: 20px;
+    margin-right: 1px;
+  }
+  .footer {
+    margin: 0px;
+    width: 100vw;
+    height: 180px;
+  }
+  #copy {
+    font-size:8px;
+    padding: 18px 14px 0px 0px;
+  }
+  .footer-copy {
+    width: 95vw;
+    margin: 15px auto;
+  }
+  .text-shadow{
+    text-shadow: -2px 2px 3px black;
+  }
+
+
+
+  .container1 {
+    border: 2px solid white;
+    margin: 20px auto 150px auto;
+    padding: 24px;
+    width: 70%;
+    border-radius: 28px;
+}
+.form-group input{
+  width: 200px;
+  margin: 11px auto;
+  font-size: 15px;
+}
 }
